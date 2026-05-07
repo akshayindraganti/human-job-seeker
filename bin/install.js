@@ -31,6 +31,7 @@ const SKILLS = [
   'hiring-manager-cold-email',
   'job-application-email',
   'interview-followup-email',
+  'interview-prep',
   'referral-request-writer',
   'linkedin-connection-writer',
   'linkedin-inmail-writer',

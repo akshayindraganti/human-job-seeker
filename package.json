@@ -11,6 +11,7 @@
     "resume",
     "job-search",
     "cover-letter",
+    "interview-prep",
     "linkedin",
     "salary-negotiation"
   ],
@@ -31,6 +32,7 @@
     "hiring-manager-cold-email/",
     "job-application-email/",
     "interview-followup-email/",
+    "interview-prep/",
     "referral-request-writer/",
     "linkedin-connection-writer/",
     "linkedin-inmail-writer/",
