@@ -11,6 +11,7 @@ A complete job-search writing toolkit for AI coding assistants. Every document i
 | `recruiter-cold-email` | Cold email to recruiters, under 150 words, with subject line |
 | `hiring-manager-cold-email` | Direct email to the decision-maker, under 80 words |
 | `job-application-email` | Short email sending a resume directly to a contact |
+| `interview-prep` | Personalized prep guide — likely questions, STAR answer frameworks, weak spots, questions to ask |
 | `interview-followup-email` | Thank-you notes, status check-ins, withdrawal emails |
 | `referral-request-writer` | Referral asks calibrated by relationship strength |
 | `linkedin-connection-writer` | 300-char connection notes + first follow-up message |
@@ -19,7 +20,7 @@ A complete job-search writing toolkit for AI coding assistants. Every document i
 
 ## Editing skills
 
-All 10 skills live in their own top-level directories (e.g. `human-resume-writer/SKILL.md`). That's the single source of truth — **edit there, and the change is reflected everywhere automatically.**
+All 11 skills live in their own top-level directories (e.g. `human-resume-writer/SKILL.md`). That's the single source of truth — **edit there, and the change is reflected everywhere automatically.**
 
 Every agent-specific directory (`.claude/skills/`, `.cursor/skills/`, etc.) contains symlinks back to the canonical files, so there's nothing to keep in sync manually.
 
@@ -53,12 +54,12 @@ If you're on Windows or an environment where symlinks don't work, run the fallba
 
 ## Installation
 
-### Install all 10 skills (pick your platform)
+### Install all 11 skills (pick your platform)
 
 **Claude Code:**
 ```bash
 mkdir -p ~/.claude/skills
-for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
+for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-prep interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
   mkdir -p ~/.claude/skills/$skill
   cp $skill/SKILL.md ~/.claude/skills/$skill/
 done
@@ -67,7 +68,7 @@ done
 **Cursor:**
 ```bash
 mkdir -p ~/.cursor/skills
-for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
+for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-prep interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
   mkdir -p ~/.cursor/skills/$skill
   cp $skill/SKILL.md ~/.cursor/skills/$skill/
 done
@@ -76,7 +77,7 @@ done
 **Windsurf:**
 ```bash
 mkdir -p ~/.windsurf/skills
-for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
+for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-prep interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
   mkdir -p ~/.windsurf/skills/$skill
   cp $skill/SKILL.md ~/.windsurf/skills/$skill/
 done
@@ -85,7 +86,7 @@ done
 **Gemini CLI:**
 ```bash
 mkdir -p ~/.gemini/skills
-for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
+for skill in human-resume-writer cover-letter-writer recruiter-cold-email hiring-manager-cold-email job-application-email interview-prep interview-followup-email referral-request-writer linkedin-connection-writer linkedin-inmail-writer salary-negotiation-writer; do
   mkdir -p ~/.gemini/skills/$skill
   cp $skill/SKILL.md ~/.gemini/skills/$skill/
 done
@@ -112,6 +113,9 @@ Here's my background: [paste resume or summary]
 
 /recruiter-cold-email
 I want to email the recruiter at Acme Corp...
+
+/interview-prep
+Here's my resume: [paste] — I have an interview at Acme for Senior PM on Thursday
 
 /salary-negotiation-writer
 I received an offer for $120K, I want $140K...
