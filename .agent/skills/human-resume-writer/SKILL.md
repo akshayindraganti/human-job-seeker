@@ -1,0 +1,1 @@
+../../../human-resume-writer/SKILL.md

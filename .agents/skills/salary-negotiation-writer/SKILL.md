@@ -1,0 +1,1 @@
+../../../salary-negotiation-writer/SKILL.md

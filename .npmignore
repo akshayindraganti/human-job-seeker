@@ -1,0 +1,16 @@
+# Agent-specific dirs — not needed in the published package
+# (the installer reads from the bundled skill dirs, not these)
+.claude/
+.cursor/
+.windsurf/
+.gemini/
+.opencode/
+.codex/
+.agents/
+.agent/
+.claude-plugin/
+
+# Dev files
+sync-skills.sh
+CONTRIBUTING.md
+.DS_Store

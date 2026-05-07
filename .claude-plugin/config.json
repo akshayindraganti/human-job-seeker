@@ -1,0 +1,160 @@
+{
+  "name": "human-job-seeker",
+  "version": "1.0.0",
+  "description": "Complete job-search writing toolkit. All documents written in human voice — no AI patterns. Covers resume rewriting, cover letters, cold emails, LinkedIn messages, referrals, interview follow-ups, and salary negotiation.",
+  "author": "human-job-seeker",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "human-resume-writer",
+      "path": "human-resume-writer/SKILL.md",
+      "description": "Rewrite a full resume to pass both ATS keyword filters and human hiring manager review",
+      "triggers": [
+        "rewrite my resume",
+        "optimize my resume",
+        "resume not getting interviews",
+        "ATS resume",
+        "humanize my resume",
+        "make my resume sound natural",
+        "resume review",
+        "improve my resume"
+      ]
+    },
+    {
+      "name": "cover-letter-writer",
+      "path": "cover-letter-writer/SKILL.md",
+      "description": "Write a compelling cover letter specific to a company and role — not a template",
+      "triggers": [
+        "write a cover letter",
+        "cover letter",
+        "application letter",
+        "help with cover letter",
+        "cover letter for job"
+      ]
+    },
+    {
+      "name": "recruiter-cold-email",
+      "path": "recruiter-cold-email/SKILL.md",
+      "description": "Write a cold email to a recruiter that gets a reply — under 150 words, specific subject line",
+      "triggers": [
+        "cold email recruiter",
+        "email a recruiter",
+        "reach out to recruiter",
+        "recruiter outreach",
+        "message recruiter"
+      ]
+    },
+    {
+      "name": "hiring-manager-cold-email",
+      "path": "hiring-manager-cold-email/SKILL.md",
+      "description": "Write a cold email directly to a hiring manager — under 80 words, references their actual work",
+      "triggers": [
+        "email hiring manager",
+        "cold email hiring manager",
+        "reach out to hiring manager",
+        "contact the person who would be my boss",
+        "direct outreach"
+      ]
+    },
+    {
+      "name": "job-application-email",
+      "path": "job-application-email/SKILL.md",
+      "description": "Write the short email that accompanies a resume sent directly to a contact",
+      "triggers": [
+        "send resume by email",
+        "application email",
+        "email with resume attached",
+        "job application email",
+        "submitting resume via email"
+      ]
+    },
+    {
+      "name": "interview-followup-email",
+      "path": "interview-followup-email/SKILL.md",
+      "description": "Write thank-you notes, status check-ins, and post-interview follow-ups that reference the actual conversation",
+      "triggers": [
+        "thank you email after interview",
+        "follow up after interview",
+        "post interview email",
+        "checking in after applying",
+        "interview thank you",
+        "follow up on application"
+      ]
+    },
+    {
+      "name": "referral-request-writer",
+      "path": "referral-request-writer/SKILL.md",
+      "description": "Ask a contact to refer you or introduce you — calibrated by relationship strength",
+      "triggers": [
+        "ask for a referral",
+        "referral request",
+        "ask someone to refer me",
+        "internal referral",
+        "employee referral",
+        "ask contact at company"
+      ]
+    },
+    {
+      "name": "linkedin-connection-writer",
+      "path": "linkedin-connection-writer/SKILL.md",
+      "description": "Write LinkedIn connection request notes (300 char limit) and first follow-up messages",
+      "triggers": [
+        "LinkedIn connection request",
+        "connect on LinkedIn",
+        "LinkedIn note",
+        "connection request message",
+        "LinkedIn introduction"
+      ]
+    },
+    {
+      "name": "linkedin-inmail-writer",
+      "path": "linkedin-inmail-writer/SKILL.md",
+      "description": "Write LinkedIn InMail to recruiters, hiring managers, and job posters you're not connected with",
+      "triggers": [
+        "LinkedIn InMail",
+        "LinkedIn message to recruiter",
+        "LinkedIn message to hiring manager",
+        "message someone on LinkedIn",
+        "LinkedIn cold message",
+        "reply to recruiter on LinkedIn"
+      ]
+    },
+    {
+      "name": "salary-negotiation-writer",
+      "path": "salary-negotiation-writer/SKILL.md",
+      "description": "Counter offers, negotiate equity, request sign-on, use competing offers, and decline gracefully",
+      "triggers": [
+        "negotiate salary",
+        "counter offer",
+        "salary negotiation",
+        "negotiate job offer",
+        "ask for more money",
+        "competing offer negotiation",
+        "decline offer",
+        "salary counter email"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Resume",
+      "skills": ["human-resume-writer"]
+    },
+    {
+      "name": "Application Documents",
+      "skills": ["cover-letter-writer", "job-application-email"]
+    },
+    {
+      "name": "Direct Outreach",
+      "skills": ["recruiter-cold-email", "hiring-manager-cold-email", "referral-request-writer"]
+    },
+    {
+      "name": "LinkedIn",
+      "skills": ["linkedin-connection-writer", "linkedin-inmail-writer"]
+    },
+    {
+      "name": "Interview & Offer",
+      "skills": ["interview-followup-email", "salary-negotiation-writer"]
+    }
+  ]
+}

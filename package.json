@@ -1,0 +1,47 @@
+{
+  "name": "human-job-seeker",
+  "version": "1.0.0",
+  "description": "Complete job-search writing toolkit for AI coding assistants. Covers resume rewriting, cover letters, cold emails, LinkedIn, referrals, interview follow-ups, and salary negotiation — all in a natural human voice.",
+  "keywords": [
+    "claude",
+    "cursor",
+    "windsurf",
+    "ai",
+    "skills",
+    "resume",
+    "job-search",
+    "cover-letter",
+    "linkedin",
+    "salary-negotiation"
+  ],
+  "homepage": "https://github.com/akshayindraganti/human-job-seeker#readme",
+  "bugs": {
+    "url": "https://github.com/akshayindraganti/human-job-seeker/issues"
+  },
+  "license": "MIT",
+  "author": "Akshay Indraganti",
+  "bin": {
+    "human-job-seeker": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "human-resume-writer/",
+    "cover-letter-writer/",
+    "recruiter-cold-email/",
+    "hiring-manager-cold-email/",
+    "job-application-email/",
+    "interview-followup-email/",
+    "referral-request-writer/",
+    "linkedin-connection-writer/",
+    "linkedin-inmail-writer/",
+    "salary-negotiation-writer/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshayindraganti/human-job-seeker.git"
+  }
+}

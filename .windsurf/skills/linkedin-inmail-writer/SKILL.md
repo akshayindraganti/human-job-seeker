@@ -1,0 +1,1 @@
+../../../linkedin-inmail-writer/SKILL.md

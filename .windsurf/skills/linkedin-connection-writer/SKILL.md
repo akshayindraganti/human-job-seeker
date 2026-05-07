@@ -1,0 +1,1 @@
+../../../linkedin-connection-writer/SKILL.md

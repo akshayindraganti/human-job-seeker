@@ -1,0 +1,1 @@
+../../../hiring-manager-cold-email/SKILL.md
